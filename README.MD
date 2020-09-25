@@ -52,7 +52,7 @@ Content Delivery Network (CDN)
 Latest version can be linked into your project using the following in the head section of your project:
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/worldoptimizer/HypePatternCSS/pattern.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/worldoptimizer/HypePatternFactory/pattern.min.css" rel="stylesheet">
 ```
 
 Optionally you can also link a SRI version or specific releases. 
