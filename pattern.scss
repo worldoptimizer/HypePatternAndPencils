@@ -34,7 +34,7 @@ $dots : (sm:.5px,
         .#{$pattern-prefix}-checks-#{$name} {
             background-image:
                 repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor),
-                repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor);
+                repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor)!important;
             background-position: 0 0,
             #{$size} #{$size};
             background-size: calc(2 * #{$size}) calc(2 * #{$size});
@@ -50,7 +50,7 @@ $dots : (sm:.5px,
         .#{$pattern-prefix}-grid-#{$name} {
             background-image:
                 linear-gradient(currentColor 1px, transparent 1px),
-                linear-gradient(to right, currentColor 1px, transparent 1px);
+                linear-gradient(to right, currentColor 1px, transparent 1px) !important;
             background-size: #{$size} #{$size};
             // background-position: calc(-0.5 * #{$size}) calc(-0.5 * #{$size});
         }
@@ -63,7 +63,7 @@ $dots : (sm:.5px,
     @each $name,
     $size in $dots {
         .#{$pattern-prefix}-dots-#{$name} {
-            background-image: radial-gradient(currentColor #{$size}, transparent #{$size});
+            background-image: radial-gradient(currentColor #{$size}, transparent #{$size}) !important;
             background-size: calc(10 * #{$size}) calc(10 * #{$size});
         }
     }
@@ -76,7 +76,7 @@ $dots : (sm:.5px,
     $size in $dots {
         .#{$pattern-prefix}-cross-dots-#{$name} {
             background-image: radial-gradient(currentColor #{$size}, transparent #{$size}),
-            radial-gradient(currentColor #{$size}, transparent #{$size});
+            radial-gradient(currentColor #{$size}, transparent #{$size}) !important;
             background-size: calc(20 * #{$size}) calc(20 * #{$size});
             background-position: 0 0,
             calc(10 * #{$size}) calc(10 * #{$size});
@@ -94,7 +94,7 @@ $size in $pattern-sizes {
                     currentColor,
                     currentColor 1px,
                     transparent 1px,
-                    transparent);
+                    transparent)!important;
             background-size: #{$size} #{$size};
         }
     }
@@ -106,7 +106,7 @@ $size in $pattern-sizes {
                     currentColor,
                     currentColor 1px,
                     transparent 1px,
-                    transparent);
+                    transparent)!important;
             background-size: #{$size} #{$size};
         }
     }
@@ -118,7 +118,7 @@ $size in $pattern-sizes {
                     currentColor 0,
                     currentColor 1px,
                     transparent 0,
-                    transparent 50%);
+                    transparent 50%)!important;
             background-size: #{$size} #{$size};
         }
     }
@@ -131,7 +131,7 @@ $size in $pattern-sizes {
     // .bg-vertical-stripes-{sm, md, lg, xl}
     @if index($pattern-list, 'vertical-stripes') {
         .#{$pattern-prefix}-vertical-stripes-#{$name} {
-            background-image: linear-gradient(90deg, transparent 50%, currentColor 50%);
+            background-image: linear-gradient(90deg, transparent 50%, currentColor 50%)!important;
             background-size: #{$size} #{$size};
         }
     }
@@ -139,7 +139,7 @@ $size in $pattern-sizes {
     // .bg-horizontal-stripes-{sm, md, lg, xl}
     @if index($pattern-list, 'horizontal-stripes') {
         .#{$pattern-prefix}-horizontal-stripes-#{$name} {
-            background-image: linear-gradient(0deg, transparent 50%, currentColor 50%);
+            background-image: linear-gradient(0deg, transparent 50%, currentColor 50%)!important;
             background-size: #{$size} #{$size};
         }
     }
@@ -151,7 +151,7 @@ $size in $pattern-sizes {
                 transparent,
                 transparent #{$size},
                 currentColor #{$size},
-                currentColor calc(2 * #{$size}));
+                currentColor calc(2 * #{$size}))!important;
         }
     }
 }
@@ -165,7 +165,7 @@ $size in $pattern-sizes {
             background: linear-gradient(135deg, currentColor 25%, transparent 25%) -#{$size} 0,
             linear-gradient(225deg, currentColor 25%, transparent 25%) -#{$size} 0,
             linear-gradient(315deg, currentColor 25%, transparent 25%),
-            linear-gradient(45deg, currentColor 25%, transparent 25%);
+            linear-gradient(45deg, currentColor 25%, transparent 25%)!important;
             background-size: calc(2 * #{$size}) calc(2 * #{$size});
         }
     }
@@ -179,7 +179,7 @@ $size in $pattern-sizes {
         .#{$pattern-prefix}-triangles-#{$name} {
             background-image: linear-gradient(45deg,
                     currentColor 50%,
-                    transparent 50%);
+                    transparent 50%)!important;
             background-size: #{$size} #{$size};
         }
     }
