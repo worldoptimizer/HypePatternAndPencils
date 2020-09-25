@@ -2,9 +2,9 @@
 
 ![Preview](HypePatternCSS.jpg)
 
-CSS only library to fill your empty background with beautiful patterns.
+CSS only library to fill your empty background with beautiful patterns
+<sup>*1.*</sup>.
 
-See the full [documentation](https://bansal.io/pattern-css)
 
 
 
@@ -36,6 +36,33 @@ See the full [documentation](https://bansal.io/pattern-css)
 |pattern-triangles-sm|pattern-triangles-md|pattern-triangles-lg|pattern-triangles-xl|
 |pattern-zigzag-sm|pattern-zigzag-md|pattern-zigzag-lg|pattern-zigzag-xl|
 
-## License
+---
 
-MIT
+**Version-History:**  
+`1.0	Initial release under MIT `   
+
+## Documentation
+
+See the full [documentation](https://bansal.io/pattern-css)
+Hype specific restriction might apply
+
+Content Delivery Network (CDN)
+--
+
+Latest version can be linked into your project using the following in the head section of your project:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/worldoptimizer/HypePatternCSS/pattern.min.css"></script>
+```
+
+Optionally you can also link a SRI version or specific releases. 
+Read more about that on the JsDelivr (CDN) page for this extension at https://www.jsdelivr.com/package/gh/worldoptimizer/HypePatternCSS
+
+Learn how to use the latest extension version and how to combine extensions into one file at
+https://github.com/worldoptimizer/HypeCookBook/wiki/Including-external-files-and-Hype-extensions
+
+---
+
+**Footnotes:**
+
+<sup>*1. This is a fork off the great work from the people at https://bansal.io/*</sup>
