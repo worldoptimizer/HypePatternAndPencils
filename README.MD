@@ -7,7 +7,7 @@ CSS only library to fill your empty background with beautiful patterns
 
 # Attention!
 
-I am currently working on this repository. It will be restructed and the patterns will be rendered using JS instead of CSS.
+I am currently working on this repository. It will be restructed and the patterns will be rendered using JS instead of CSS. That is why it is now called a factory. It will include a "factory" for http://iros.github.io/patternfills/sample_svg.html as well…
 
 
 ## Features
