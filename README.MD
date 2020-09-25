@@ -5,7 +5,9 @@
 CSS only library to fill your empty background with beautiful patterns
 <sup>*1.*</sup>.
 
+# Attention!
 
+I am currently working on this repository. It will be restructed and the patterns will be rendered using JS instead of CSS.
 
 
 ## Features
