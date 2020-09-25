@@ -16,39 +16,6 @@ See the full [documentation](https://bansal.io/pattern-css)
 
 ## Installation
 
-### via npm
-
-```bash
-npm install pattern.css
-```
-
-### via cdn
-
-```html
-<link href="https://unpkg.com/pattern.css" rel="stylesheet">
-```
-
-### download
-
-```html
-<link href="dist/pattern.min.css" rel="stylesheet">
-```
-
-## Usage
-
-pattern.css can be used with any css framework.
-
-### With shorthand framework
-
-```html
-<div class="pattern-checks-sm bg-blue white">...</div>
-```
-
-### With bootstrap framework
-
-```html
-<div class="pattern-checks-sm bg-primary text-white">...</div>
-```
 
 ## Pattern Classes
 
