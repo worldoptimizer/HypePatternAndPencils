@@ -1,9 +1,4 @@
-# pattern.css (Hype Edition)
 
-![Preview](HypePatternCSS.jpg)
-
-CSS only library to fill your empty background with beautiful patterns
-<sup>*1.*</sup>.
 
 # Attention!
 
