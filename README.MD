@@ -2,7 +2,7 @@
 
 # Attention!
 
-I am currently working on this repository. It will be restructed and the patterns will be prerendered in CSS and incases converted  using JS. It will include factories for http://iros.github.io/patternfills/sample_svg.html as well… but also diffrent approaches concerning patterns (SVG, CSS). That can be used through the CDN or by downloading them. Then, I am planning to add my pencil ports as well… So, to not limit this repository to patterns… it is now called Pattern and Pencils.
+I am currently working on this repository. It will be restructed and the patterns will be prerendered in CSS and in cases be converted to JS factories. It will include http://iros.github.io/patternfills/sample_svg.html as well with diffrent approaches for SVG and CSS patterns. These then can be used through the CDN or by downloading them. Then, I am planning to add my pencil ports as well… So, to not limit this repository to patterns… it is now called Pattern and Pencils.
 
 
 ## Features
