@@ -2,7 +2,7 @@
 
 # Attention!
 
-I am currently working on this repository. It will be restructed and the patterns will be rendered using JS instead of CSS. That is why it is now called a <strike>factory</strike>. It will include a "factory" for http://iros.github.io/patternfills/sample_svg.html as well… but also diffrent approaches concerning paterns… that can be used through the CDN or by downloading them. So, to not limit this repository to factories… it is now called Pattern Mania.
+I am currently working on this repository. It will be restructed and the patterns will be rendered using JS instead of CSS. It will include factories for http://iros.github.io/patternfills/sample_svg.html as well… but also diffrent approaches concerning patterns… that can be used through the CDN or by downloading them. So, to not limit this repository to factories… it is now called Pattern Mania. Then, I am planning to add my pencil ports as well…
 
 
 ## Features
